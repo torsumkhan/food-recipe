@@ -1,0 +1,32 @@
+.navbar {
+    background: red;
+    padding: 25px;
+    color:white
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.navbar a.brand{
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.create-btn {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.navbar a:last-child:hover{
+    background: white;
+    color: black
+}
