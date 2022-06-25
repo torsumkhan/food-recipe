@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, withRouter } from "react-router-dom";
 //import pages
 import Home from "./pages/home/Home";
 import Create from "./pages/create/Create";
@@ -15,18 +15,10 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/create">
-            <Create />
-          </Route>
-          <Route path="/recipes/:id">
-            <Recipe />
-          </Route>
-          <Route path="/search">
-            <Search />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/create" component={Create} />
+          <Route path="/recipes/:id" component={Recipe} />
+          <Route path="/search" component={Search} />
         </Switch>
       </BrowserRouter>
     </div>
