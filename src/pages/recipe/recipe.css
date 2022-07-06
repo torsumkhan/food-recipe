@@ -1,0 +1,39 @@
+.recipe {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.recipe ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.recipe li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.recipe li::after{
+    content: ",";
+}
+
+.recipe li:last-child::after{
+    content: "";
+}
+
+.method {
+    text-align: left;
+    line-height: 1.6rem;
+}
+
+.cooking-time{
+    margin-bottom: 24px;
+}
