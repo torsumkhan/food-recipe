@@ -27,12 +27,12 @@
     {
       "title": "Biryani",
       "ingredients": [
-        "chicken",
-        "rice"
+        "rice",
+        "chicken"
       ],
-      "method": "blah blah blah",
-      "cookingTime": "43 minutes",
-      "id": "OAA7XYO"
+      "method": "blah blah",
+      "cookingTime": "45 minutes",
+      "id": "8ln_GxH"
     }
   ]
 }
