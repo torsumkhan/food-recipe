@@ -28,3 +28,21 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+.ingredients {
+    display: flex;
+    align-items: center;
+}
+
+.ing-btn{
+    display: block;
+    margin: 0 0 0 10px;
+    width: 30%;
+    padding: 12px 0;
+    border-radius: 4px;
+    border:1px solid gray;
+    background-color: #ffcb77;
+    cursor: pointer;
+    text-decoration: none;
+
+}
